@@ -19,6 +19,7 @@ p {
 
 body {
     font-family: "fuentetitulos", "fuentetexto";
+    /* grid-template-columns: 10% 10% 10% 10% 10%; */
 }
 
 
@@ -27,6 +28,7 @@ body {
     padding: 0;
     box-sizing: 0;
 }
+
 
 
 /* BARRA NAVEGACIÓN */
@@ -47,6 +49,8 @@ body {
     display: flex;
     align-items: center;
 }
+
+
 
 
 .header__label {
@@ -95,7 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../miPrimerProyecto/img/main/fondoCiclista.jpg);
+    background-image: url("./img/main/fondoCiclista.jpg");
 }
 
 .mainciclista p {
@@ -141,6 +145,5 @@ main {
 footer {
     height: 100px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
+
